@@ -6,6 +6,30 @@
 }
 
 img {
-	width: 80%;
-	
+	width: 100%;	
+}
+
+h1 {
+	text-align: center;
+}
+
+p[class="headline"] {
+	font-size: 24px;
+	color: #880F93;
+	font-weight: bold;
+	font-style: italic;
+}
+
+p {
+	font-size: 18px;	
+}
+
+a {
+	color: #CD0909;
+	text-decoration: none;
+}
+
+.footer a {
+	color: #0DBF0D;
+	font-weight: bold;
 }
