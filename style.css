@@ -1,6 +1,5 @@
 #wrapper {
 	width: 800px;	
-	font-size: 15px;
 	font-family: tahoma;
 	margin-right: auto;
 	margin-left: auto;
@@ -24,24 +23,27 @@ header img {
 }
 
 header p {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
+	padding-top: 45px;
 }
 
 nav {   
     background-color: #C65252;
     width: 800px;
-    height: 30px;
-    direction: rtl;    
+    height: 50px;
+    direction: rtl;       
 }	
 
 nav ul {
     list-style-type: none;
     margin: 0px;
+    padding-top: 10px;
 }
 
 nav li {
-    display: inline; 
+    display: inline;
+    margin-right: 15px; 
             
 }
 
@@ -53,6 +55,7 @@ nav li a {
 
 h1 {
 	text-align: center;
+	font-size: 50px;
 }
 
 #samsung {
@@ -92,7 +95,8 @@ h1 {
 
 figcaption {
 	text-align: center;	
-	font-weight: bold;		
+	font-weight: bold;
+	font-size: 18px;		
 }
 
 #footer {	
@@ -107,6 +111,10 @@ figcaption {
 }
 
 .footer img {
-	width: 250px;
-	
+	width: 150px;	
+}
+
+.footer p {
+	margin-top: 8px;
+	font-size: 12px;
 }
