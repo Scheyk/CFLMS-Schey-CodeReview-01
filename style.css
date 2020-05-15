@@ -58,6 +58,7 @@ h1 {
 #samsung {
 	position: relative;
 	margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .samsung img {
@@ -65,10 +66,14 @@ h1 {
 	height: 350px;
 }
 
+#package {
+	width: 100%;
+	height: 250px;
+}
+
 #atm {
-	position: relative;
-	width: 50%;
-	margin-bottom: 15px;	
+	float: left;
+	width: 50%;		
 }
 
 .atm img {
@@ -77,10 +82,8 @@ h1 {
 
 
 #scooter {
-	position: relative;
-	width: 50%;
-	margin-left: 400px;
-	margin-top: -235px;
+	float: left;
+	width: 50%;		
 }
 
 .scooter img {
@@ -94,12 +97,13 @@ figcaption {
 
 #footer {	
 	background-color: #CABBB7;
-	height: 130px;
+	height: 100px;
 	display: flex; 
     justify-content: center; 
-    align-items: center;
-	margin-bottom: 15px;
+    align-items: center;		
 	padding-top: 15px;
+	margin-top: 15px;
+	width: 100%;
 }
 
 .footer img {
