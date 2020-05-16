@@ -140,3 +140,11 @@ h6 {
 	font-size: 0.938em;
 	margin: 0em;
 }
+
+span {
+	color: #BB0E78;
+	color: rgb(187,14,120);
+	color: hsl(323,86%,39%);
+	font-weight: bold;
+	text-shadow: 0.063em 0.063em 0em #009770;
+}
