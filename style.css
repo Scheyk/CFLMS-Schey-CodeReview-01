@@ -135,3 +135,8 @@ input[class="letter"]  {
 	letter-spacing: 0.125em;
 	font-weight: bold;
 }
+
+h6 {
+	font-size: 0.938em;
+	margin: 0em;
+}
