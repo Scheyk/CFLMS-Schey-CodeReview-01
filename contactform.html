@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+	<div id="wrapper">
+
+		<header>
+			<img src="img/logo.png" alt="logo code factory">
+			<p>Kathrin Schey- Full-Stack Web Developer</p>
+		</header>	
+
+		<iframe src="nav.html" class="iframe" scrolling="no" frameborder="0"></iframe>
+
+		<h3 class="wrapper">How can we assist you?</h3>		
+	
+		<form action="contactform_submit" method="get" class="wrapper">
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Femal
+			<input type="radio" name="gender" value="other">Other		
+		</form>
+		<br>
+		<hr>
+		<form action="contactform_submit" method="get" class="wrapper">
+			<p><input type="text" name="fist" placeholder="FirstName"></p>
+			<p><input type="text" name="surname" placeholder="Surname"></p>
+			<p><input type="email" name="mail" placeholder="E-Mail"></p>		
+		</form>
+		<br>
+		<hr>
+		<form action="contactform_submit" method="get" class="wrapper">
+			<p><input type="file" name="file" value="" placeholder="choose"></p>
+			<p><input type="file" name="file" value="" placeholder="choose"></p>
+			<p><input type="file" name="file" value="" placeholder="choose"></p>
+		</form>
+		<br>
+		<hr>
+		<form action="contactform_submit" method="get" class="wrapper">
+			<p>Your massage:</p>
+			<textarea name="" cols="50" rows="10"></textarea>
+		</form>
+		<form action="contactform_submit" method="get" class="wrapper">
+			<input type="button" name="submit" value="Send">
+		</form>
+
+		<div id="footer">
+			<footer class="footer">				
+				<img src="img/logo.png" alt="logo code factory">						
+				<p>Kathrin Schey- CodeFactory 2020 &copy;</p>	
+			</footer>
+		</div>
+	</div>
+	</body>
+</html>

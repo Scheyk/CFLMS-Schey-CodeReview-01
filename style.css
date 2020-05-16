@@ -66,6 +66,10 @@ h1 {
 	font-size: 3.125em;
 }
 
+.wrapper {
+	text-align: center;
+}
+
 #samsung {
 	position: relative;
 	margin-bottom: 0.9375em;
